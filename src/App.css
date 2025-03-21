@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.board {
+  display: flex;
+  flex-direction: column;
+}
+.tile {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 2px;
+}
+.line {
+  display: flex;
+  gap: 2px;
+}
+
+.correct {
+  background-color: rgb(81, 198, 81);
+}
+.partial {
+  background-color: rgb(198, 198, 110);
+}
+.wrong {
+  background-color: gray;
 }
